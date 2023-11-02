@@ -7,6 +7,8 @@ letting drivers know that the InfoTech Center 2023 is loading.
 #Import Libraries Here
 import time
 import sys
+import random
+from time import sleep
 time_to_sleep = 2
 
 print ("\nWelcome - InfoTech Center 2023\n")
@@ -28,12 +30,11 @@ while x != 20:
     if x == 20:
         print("\n\nOperating System Loaded - Retina Scanned - Access Granted")
 
-print("***********************************")
-print("Gasoline Branch\n\n")
+print("\n***********************************\n")
+print("Checking current gas levels...\n")
+sleep(1)
 
-#Import Libraries Here
-import random
-from time import sleep
+
 
 def gasLevelGauge():
     gasLevelList = ["Empty", "Low", "Quarter Tank", "Half Tank", "Three Quarter Tank", "Full Tank"]
